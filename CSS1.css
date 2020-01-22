@@ -1,0 +1,99 @@
+#h{
+	width:1340px;
+	background-color:red;
+	font-size:20px;
+	font-family:Verdana;
+	color:ADD8E6;	
+	font-size: 20px;
+
+	
+	background-image:College1.jpg
+}
+#l{
+	width:1340px;
+	background-color:gray;
+	font-size:20px;
+	font-family:Verdana;
+	color:ADD8E6;	
+	font-size: 20px;
+}
+#box
+{
+	width:1340px;
+	background-color:blue;
+
+}
+#i{
+	background-color:white;
+	width:790px;
+	float:left;
+	height:100px;
+}
+#n{
+	background-color:white;
+	width:200px;
+	float:left;
+	height:100px;
+	
+}
+#m{
+	background-color:white;
+	width:350px;
+	float:right;
+	height:100px;
+	text-align:justify;
+	
+}
+
+
+#box
+{
+	width:1345px;
+	background-color:blue;
+}
+#one
+{
+	background-color:red;
+	font-size:30px;
+	width:1070px;
+	height:120px;
+	float:left;
+}
+#two
+{
+	background-color:green;
+	width:275;
+	height:120px;
+	float:right;
+}
+#box1
+{
+	width:1345px;
+	background-color:blue;
+	
+}
+#one1
+{
+	background-color:gray;
+	font-size:30px;
+	width:1345px;
+	height:180px;
+	float:left;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+

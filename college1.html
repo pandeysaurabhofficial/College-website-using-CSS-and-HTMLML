@@ -1,0 +1,51 @@
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NGF College Of Enginnering and College</title>
+<link rel="stylesheet" type="text/css" href="CSS1.css">
+
+</head>
+<body>
+
+<div id = h> <b><img src = "Dialer.png">+91 8010100022 | +91 9896589221 <div align="right"> <a href="Login.html"> <button type="button"><img src="Lock.png" >Login/Register</button> </a></div></div>
+<div id="box">
+<div id ="i"> <br><font color="blue" face="Algerian" size="6inch">NGF College Of Enginnering <br>and Management</font></div>
+<div id="n"><br><img src="College1.png" height="80" width="150"></div>
+<div id = "m"><font color="blue"><b>Affiliated to Maharishi Dayanand <br>University, Rohtak<br>
+Approved by AICTE<br> (Ministry of HRD, Govt. of India)<br>
+NTS (Ministry of HRD, Govt. of India)</font></b></div>
+</div>
+<div id =h> 
+<a href="Home.html">Home |</a> 
+<a href="AdmissionCriteria.html">Admission Criteria |</a>
+<a href="Fees Structure.html">Fees Structure |</a>
+<a href="About us.html">About Us |</a>
+<a href="Training.html">Training & Placement |</a></font></div> </font>
+<marquee><a href="Apply.html"> <font size="5" color=red><b>Admission Open 2017</b></font></marquee></b>
+<img src="College7.jpg" width="1340px" height="800px">
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<div id="box"><center>
+<div id="one"><font color="blue">NGF College Of <br > Enginnering & Management
+<br>Any Complaint Call: +91 9811234432</font>
+</div>
+<div id="two"><img src="CollegeFooter.jpg" height="120px" width="275px">
+</div>
+</div>
+</body>
+</html>
